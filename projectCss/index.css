@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+}
+.complete-body{
+    /* background-color: aqua; */
+    height: auto;
+    width: 100%;
+}
+
+
+.container1{
+    /* background-color: red; */
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown{
+    /* background-color: blue; */
+    height: 60px;
+    width: 20%;
+}
+.fas{
+    font-size: 35px;
+    padding: 5px;
+    margin-top: 25px;
+    margin-left: 20%;
+}
+.login{
+    display: flex;
+    /* justify-content: space-evenly; */
+    width: 30%;
+    
+    /* background: blueviolet; */
+}
+.sign,.log{
+    height: 35px;
+    padding: 6px 20px 6px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight:500;
+    font-family: 'Segoe UI';
+    margin: 5px;
+
+}
+
+/* starting of banner */
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.container2{
+    margin-top: 40px;
+    width: 100%;
+    /* background-color: brown; */
+}
+/* main heading */
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.heading-1{
+    font-size: 30px;
+    /* font-family:'Roboto', sans-serif; */
+    font-family: 'Satisfy', cursive;
+    word-wrap: normal;
+    font-weight: lighter;
+    word-spacing: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.text1{
+    display: flex;
+}
+.text-2{
+    /* background-color: greenyellow; */
+    padding-top: 60px;
+    padding-left: 50px;
+}
+.img1{
+    padding: 10px;
+    margin: 10px;
+}
+.heading-2{
+    font-size: 50px;
+    margin: 5px 10px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+.para-1{
+    font-size: 30px;
+    padding-left: 10px;
+    width: 80%;
+    margin-left: 30px;
+    font-weight: 600;
+}
+.buttons{
+    margin-top: 30px;
+    margin-left: 35px;
+}
+.account{
+    padding: 10px 25px;
+    background-color: #14c514;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    cursor: pointer;
+}
+
+.skip{
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    letter-spacing: 1px;
+    color: #0288D1;
+    font-weight:600;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-left: 35px;
+}
+
+/* banner - 2 */
+.banner-2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.container-3{
+    /* background-color: orange; */
+    width: 82%;
+    display: flex;
+
+}
+.heading-3{
+    font-size: 50px;
+    padding: 10px;
+    margin-left: 20px; 
+}
+.para-2{
+    font-size:30px;
+    width:80%;
+    margin-left:30px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.exp{
+    padding: 10px 20px;
+    font-family: 'Segoe UI';
+    letter-spacing: 0.8px;
+    font-size: 20px;
+    color: #0288D1;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 30px;
+    cursor: pointer;
+}
+.img2{
+    margin: 10px;
+}
+.text{
+    /* background-color: grey; */
+    padding-top:60px ;
+}
+
+/* banner-3 */
+.banner-3{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.container-4{
+    /* background-color: greenyellow; */
+    width: 82%;
+    display: flex;
+}
+.img3{
+    margin: 10px;
+}
+.heading-4{
+    font-size: 50px;
+    padding: 10px;
+    margin-left: 25px;
+}
+.para-3{
+    font-size: 30px;
+    /* width: 70%; */
+    margin-top: 30px;
+    margin-left: 35px;
+    margin-bottom: 60px;
+    font-weight: 600;
+}
+.text-3{
+    margin-left: 40px;
+    margin-top: 70px;
+}
