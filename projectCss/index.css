@@ -231,7 +231,6 @@
 }
 #Container h1{
     text-align: center;
-    visibility: hidden;
 }
 
 .outer {
@@ -244,10 +243,11 @@
     align-items: center;
     justify-content: center;
 }
-
+#Lesson{
+font-size: 50px;
+}
 #imgcon{
     transition: transform .4s ease-in;
-    visibility: hidden;
 }
 .Slides{
     width: 365px;
@@ -273,27 +273,27 @@
 
 #swipeLeft{
     padding: 25px;
-    width: 100px;
+    width: 40px;
     height: 80px;
     position: relative;
     top: 14rem;
     right: 42rem;
-    display: none;
+    /* display: none; */
 }
 
 #swipeRight{
     padding: 25px;
-    width: 100px;
+    width: 40px;
     height: 80px;
     position: relative;
     bottom: 16.5rem;
     left: 42rem;
-    display: none;
+    /* display: none; */
 }
 
 
 .reviewSection{
-    background-color: black;
+    /* background-color: black; */
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -305,6 +305,7 @@
     background-color: white;
     width: 500px;
     border-radius: 20px;
+    box-shadow: -1px 1px 2px gray;
 }
 
 .profilePhoto{
@@ -326,4 +327,21 @@
 
 .review h4{
     margin-bottom: 10px;
+}
+.bottom-heading{
+    font-size: 50px;
+}
+
+/* chanchal */
+/* footer */
+footer{
+    background-color: rgba(0, 0, 0, 0.788);
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+.footer-container{
+    background-color: blanchedalmond;
+    width: 75%;
+    height: 100%;
 }
