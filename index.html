@@ -7,6 +7,7 @@
     <title>DynamixAtharva</title>
     <link rel="stylesheet" href="./projectCss/index.css">
     <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./projectCss/style.css">
     <!-- for body font -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
@@ -70,7 +71,7 @@
         </section>
 
         <!-- banner 3 -->
-        <section class="banner-3">
+        <section class="banner-3" id="banner">
             <div class="container-4">
                <img src="./images/virtual.jpg" alt="img" class="img3"> 
                 <div class="text-3">
@@ -83,8 +84,61 @@
             </div>
 
         </section>
+        
+        <div id="Container" class="outer">
+          <h1 id="Lesson">Top Rated Lessons</h1>
+          <button class="btn" id="swipeLeft" >&#10094;</button>
+            <div class="imageContainer" id="imgcon">  
+                <div>
+                  <img src="./images/images.jpg" class="Slides" id="slide1"/>
+                  <p id="para1">Mathematics</p>
+                </div>
+            <div>
+              <img
+                src="./images/biology-design-lab-icon-flat-vector-8866240.jpg"class="Slides" id="slide2"/>
+              <p id="para2">Biology</p>
+            </div>
+      
+            <div>
+              <img src="./images/chemistry-vector-3632910.jpg" class="Slides" id="slide3" />
+              <p id="para3">Chemistry</p>
+            </div>
+      
+            <div>
+              <img src="./images/physics-vector-4752209.jpg" class="Slides" id="slide4"/>
+              <p id="para4">Physics</p>
+            </div>
+            </div>
+      
+            <button class="btn" id="swipeRight" >&#10095;</button>
+          </div>
+      
+          <h1 id="heading">Student's Review</h1>
+          <div class="reviewSection">
+      
+            <div class="review">
+              <img src="./webfonts/person-circle.svg" alt="profile picture" class="profilePhoto">
+              <h3>Adarsh Yadav</h3>
+              <h4>National school of Delhi, new Delhi</h4>
+              <p> I really like the content. due to detailed video lectures it's easy to understand the topic.</p>
+            </div>
+            <div class="review">
+              <img src="./webfonts/person-circle.svg" alt="profile picture" class="profilePhoto">
+              <h3>Suhani Shah</h3>
+              <h4>M.T.S Khalsa high school, mumbai</h4>
+              <p>Nice content for science stream especially quantum physics. I learned entire physics from these website</p>
+            </div>
+            <div class="review">
+              <img src="./webfonts/person-circle.svg" alt="profile picture" class="profilePhoto">
+              <h3>Vinod Kureel</h3>
+              <h4>Vibgyor roots and rise, malad(west)</h4>
+              <p>one of the best resource for 12 board students. just awesome</p>
+            </div>
+            
+          </div>
     </div>
 
     
 </body>
+<script src="./index.js"></script>
 </html>
