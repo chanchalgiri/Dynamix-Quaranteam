@@ -1,0 +1,121 @@
+/* .mySlides {display:none;} */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#Container{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+#Container h1{
+    text-align: center;
+    visibility: hidden;
+}
+
+.outer {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+.imageContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imgcon{
+    transition: transform .4s ease-in;
+    visibility: hidden;
+}
+.Slides{
+    width: 365px;
+    height: 370px;
+    padding: 45px;
+}
+
+.imageContainer p{
+    position: relative;
+    left: 45px;
+    bottom: 99px;
+    text-align: center;
+    padding: 15px;
+    width: 275px;
+    height: 49px;
+    background-color: white;
+    border: 2px solid lightgray;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-weight: 800;
+}
+
+
+#swipeLeft{
+    padding: 25px;
+    width: 100px;
+    height: 80px;
+    position: relative;
+    top: 14rem;
+    right: 42rem;
+    display: none;
+}
+
+#swipeRight{
+    padding: 25px;
+    width: 100px;
+    height: 80px;
+    position: relative;
+    bottom: 16.5rem;
+    left: 42rem;
+    display: none;
+}
+
+
+.reviewSection{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.review{
+    padding: 30px;
+    margin: 30px;
+    background-color: white;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.profilePhoto{
+    width: 50px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+#heading{
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 30px;
+}
+
+.review h3{
+    text-decoration: underline;
+}
+
+.review h4{
+    margin-bottom: 10px;
+}
+
+
+
