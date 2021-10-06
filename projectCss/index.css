@@ -37,16 +37,16 @@
     margin: 15px 20px;
 }
 .main-button{
-    padding: 8px 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 16px;
-    font-weight: 600;
+    padding: 7px 18px;
+    font-size: 14px;
+    font-weight: 500;
     border: none;
     border-radius: 4px;
     margin: 5px;
     /* background-color: #14c514; */
     /* color: white; */
-    color: #0288D1;
+    background-color:#5cb85c ;
+    color: white;
     cursor: pointer;
 }
 
@@ -302,7 +302,6 @@ font-size: 50px;
 .review{
     padding: 30px;
     margin: 30px;
-    background-color: white;
     width: 500px;
     border-radius: 20px;
     box-shadow: -1px 1px 2px gray;
