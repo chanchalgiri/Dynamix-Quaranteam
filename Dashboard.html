@@ -1,0 +1,190 @@
+Images/<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <div><title> Dashboard</title></div>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            .body{
+                font-family: 'Rajdhani', sans-serif;
+            }
+            .image {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              max-width: 15%;
+              max-height: 25%; 
+              border-radius: 70%; 
+              transition: .5s ease;
+              backface-visibility: hidden;
+              opacity: 1;
+              padding-bottom: 30px;
+            }
+            .middle {
+              transition: .5s ease;
+              opacity: 0;
+              position: absolute;
+              top: 23%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              text-align: center;
+            }
+            
+            .center:hover .image {
+              opacity: 0.3;
+            }
+            
+            .center:hover .middle {
+              opacity: 1;
+            }
+            
+            .text {
+              background-color: #04AA6D;
+              color: white;
+              font-size: 16px;
+              padding: 16px 32px;
+            }
+            .message{
+                text-align: center;
+            }
+            .col-md-6 img{
+              display: block;
+              margin-left: 20%;
+              margin-right: 80%;
+              max-height: 60%;
+              max-width: 60%;
+              border-color: black;
+              padding-bottom: 30px;
+            }
+            .jumbotron{
+              background-color: rgb(204, 203, 203);
+              padding-top: 15px;
+              padding-bottom: 20px;
+              
+              text-align: center;
+              font-weight: bolder;
+              
+            }
+            
+            .jumbotron img{
+              position: relative;
+              left: auto;
+              right: 35px;
+              width: 230px;
+              height: 230px;
+              padding-right: 15px;
+            }
+            </style>
+    </head>
+    <body class="body">
+        <div class="message">
+            <h1>
+                Welcome! Student Name
+            </h1>
+        </div>
+        <div class="center">
+            <img src="Images/avatar-1577909_960_720.png" alt="Avatar" class="image" >
+            <div class="middle">
+              <div class="text">Student name</div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" style="background-color: rgb(218, 218, 218);border-radius: 15px;">
+                    <h1>My Cources</h1>
+                    <div style="font-size: medium;">Syllabus completed</div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">70%</div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <img src="Images/physics-vector-4752209.jpg">
+                            </div>
+                            <div class="col-md-2">
+                                <img src="Images/chemistry-vector-3632910.jpg">
+                            </div>
+                            <div class="col-md-2">
+                                <img src="Images/biology-design-lab-icon-flat-vector-8866240.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h1 style="text-align: left; margin-left: 20px;">My Report</h1>
+                        <br>
+                       <img src="Images/Opera Snapshot_2021-10-05_081731_slidemodel.com.png">
+                       <div style="font-size: large; text-align: center;">Your Progress</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                  <h2>Suggested for you</h2>
+                  <br>
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div class="jumbotron">
+                        <div class="jumbotron-body">
+                          <img src="Images/3d-medical-background-with-dna-strands-virus-cells_1048-7586.jpg">
+                        </div>
+                        <div class="jumbotron-footer">
+                          <h3>Synthetic Biology</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="jumbotron">
+                        <div class="jumbotron-body">
+                          <img src="Images/Opera Snapshot_2021-10-05_082055_www.google.com.png">
+                        </div>
+                        <div class="jumbotron-footer">
+                          <h3>Quantum Chemistry</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="jumbotron">
+                        <div class="jumbotron-body">
+                          <img src="Images/Opera Snapshot_2021-10-05_082443_www.google.com.png">
+                        </div>
+                        <div class="jumbotron-footer">
+                          <h3>Kingdom Plantae</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="jumbotron">
+                        <div class="jumbotron-body">
+                          <img src="Images/stock-vector-mathematics-geometry-background-seamless-pattern-hand-drawn-geometric-shapes-on-a-chalk-board-1526625866.jpg">
+                        </div>
+                        <div class="jumbotron-footer">
+                          <h3>Application of Integrals</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div class="jumbotron">
+                        <div class="jumbotron-body">
+                          <img src="Images/PW-2014-05-02-Commissariat-quantum-1.jpg">
+                        </div>
+                        <div class="jumbotron-footer">
+                          <h3>Oscillation</h3>
+                        </div>
+                      </div>
+                    </div>
+                 </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+    </body>
+</html>
