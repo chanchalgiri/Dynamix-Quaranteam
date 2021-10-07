@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+.complete-body{
+    /* background-color: aqua; */
+    height: auto;
+    width: 100%;
+}
+.container1{
+    /* background-color: aqua; */
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    /* border-bottom: 1px solid black; */
+    box-shadow: 0px 0px 0.5px black;
+    width: 100%;
+}
+.container-width{
+    /* background-color: orange; */
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.dynamix{
+    font-size: 55px;
+    font-weight: 900;
+    margin: 5px;
+    margin-left: 60px;
+}
+/* nav-bar */
+nav{
+    /* background-color: chocolate; */
+    width: 100%;
+}
+.nav{
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.navigation{
+    /* background-color: darkblue; */
+    padding: 7px;
+    margin-left: 5px;
+}
+.navigation a{
+    color: black;
+    font-weight: 900;
+}
+.navigation a:hover{
+    border-bottom: 1.5px solid black;
+}
+
+/* right-corner icons */
+.logout{
+    /* background-color:blueviolet; */
+    display: flex;
+    width: 18%;
+}
+.logout-btn{
+    /* background-color: chartreuse; */
+    height: 45px;
+    padding: 6px 14px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0288D1;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 18px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.profile-img{
+    /* background-color: aqua; */
+    height: 45px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+/* subjects */
+.courses{
+    display: flex;
+    justify-content: center;
+}
+.courses-div{
+    width: 80%;
+    /* background-color: aqua; */
+}
+.selection{
+    display: flex;
+    /* margin: 10px 30px; */
+}
+.course-heading{
+    font-size: 37px;
+    margin: 20px 30px;
+}
+.course-selection{
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-top:20px;
+    font-size: 18px;
+}
+.course-selection option{
+    background-color: rgba(121, 113, 113, 0.377);
+}
+/* subject-classification */
+.all-subject{
+    /* background-color: #0288D1; */
+    height:auto;
+}
+.main-phy{
+    font-size: 30px;
+    padding: 20px 30px;
+}
+.phy{
+    /* background-color: rgb(8, 214, 8); */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.physics{
+    /* background: rosybrown; */
+    width: 100%;
+    height: 300px;
+    
+    
+}
+.physics-11{
+   height: 300px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    box-shadow: 1px 1px 2px  black;
+}
+.chp1{
+     background-image: url("./images/units-measurement.jpg");
+     background-position-x: -100px;
+     background-position-y: -20px;  
+}
+.text{
+    background: rgba(207, 198, 198, 0.705);
+    height: 80px;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .6s;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.text:hover{
+    height: 300px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+}
+.chp-name{
+    font-size: 25px;
+    padding: 22px;
+}
+.chp2{
+    background-image: url("./images/magnets.jpg");
+    background-position-y: -80px;
+    background-position-x: -8px;
+}
+.chp3{
+    background-image: url("./images/gravitation.jpg");
+    background-position-x: -280px;
+    background-position-y: -80px;
+}
+.chp4{
+    background-image: url("./images/periodic.jpg");
+    background-position-x: -150px;
+    background-position-y: -50px;
+}
+.chp5{
+    background-image: url("./images/redox.jpg");
+    background-position-x: -35px;
+    background-position-y: -35px;
+}
+.chp6{
+    background-image: url("./images/atom.jpg");
+    background-position-y: -35px;
+    background-position-x: -25px;
+}
+.chp7{
+    background-image: url("./images/trigo.jpg");
+}
+.chp8{
+    background-image: url("./images/circle-3128952.svg");
+    background-repeat: no-repeat;
+}
+.chp9{
+    background-image: url("./images/straight-line.jpg");
+    background-position-x: -55px;
+}
+.chp10{
+    background-image: url("./images/cell.jpg");
+}
+.chp11{
+    background-image: url("./images/plant-kingdom.jpg");
+    background-position-x: -22px;
+}
+.chp12{
+    background-image: url("./images/biomolecules.jpg");
+}
+.see-all{
+    display: flex;
+    justify-content: flex-end;
+    margin:30px;
+}
+.see-all-btn{
+    padding: 8px 18px;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 900;
+    color: #0288D1;
+}
+.video{
+    padding:8px 18px;
+    margin-top: 18px;
+    background-color: rgb(16, 160, 16);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(14, 13, 13);
+    height: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.foot{
+    /* background-color: grey; */
+    width: 65%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center  ;
+   text-align: center;
+}
+.contact{
+    /* background-color: yellowgreen; */
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.contact-text{
+    /* background-color: aquamarine; */
+    font-weight: 500;
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.fas,.far{
+    /* background-color: blue; */
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+    font-weight: 200;
+}
+.fab{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+.social-media{
+    margin: 10px;
+}

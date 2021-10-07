@@ -47,6 +47,3 @@
         console.log("click event is fired on close button");
         signin_form.style.bottom = "303px";
     })
-
-
-
