@@ -7,14 +7,14 @@
     <title>DynamixAtharva</title>
     <link rel="stylesheet" href="./projectCss/index.css">
     <link rel="stylesheet" href="./css/all.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
+    <!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
 
-<!-- 
-    trying for bootstrap
-    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
-    <script src="./bootstrap/js/bootstrap.min.js"></script> -->
+
+    <!-- trying for bootstrap -->
+    <!-- <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <script src="./bootstrap/js/bootstrap.min.js"></script>  -->
     <!-- for body font -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
@@ -29,24 +29,47 @@
     </style> -->
 </head>
 <body>
-    <div class="complete-body">
+
+        <div id="signin_form">
+            <h2>Sign in</h2>
+            <hr>
+                <div class="signin">
+
+                    <div class="inputBox">
+                        <img src="./icons/person-fill.svg">
+                        <input type="email" name="email" placeholder="Email" >
+                    </div>
+
+                    <div class="inputBox">
+                        <img src="./icons/lock_black_24dp.svg">
+                        <input type="password" name="password" placeholder="Password" >
+                    </div>
+
+                    <button id="btn2">Sign in</button>
+                </div>
+            <hr>
+            <button id="close">Close</button>
+        </div>
+    
+
+    <div class="complete-body" id="main-content">  
        <!-- navbar-->
         <header class="container1">
             <div class="container-width">
                 <h1 class="dynamix">Dynamix</h1>
                 <div class="main">
-                    <button type="button" class="main-button">Log In</button>
-                    <button type="button" class="btn btn-success btn-md" data-toggle="modal" data-target="#myModal">Sign In</button>
+                    <button type="button" id="btn-login">Log In</button>
+                    <button type="button" id="btn-signin" class="main-button" data-toggle="modal" data-target="#myModal">Sign In</button>
                 </div>
             </div>
         </header>
 
         <!-- Modal -->
-        <div class="modal fade" id="myModal" role="dialog">
-          <div class="modal-dialog">
+        <!-- <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog"> -->
           
             <!-- Modal content-->
-            <div class="modal-content">
+            <!-- <div class="modal-content">
              
               <div class="modal-body" style="align-items: center;">
                   <h2 style="text-align: center;">Sign in</h2>
@@ -70,7 +93,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!--banner 1 -->
         <section class="banner">

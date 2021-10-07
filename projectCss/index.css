@@ -6,10 +6,141 @@
     text-decoration: none;
     list-style-type: none;
 }
+
+/*POPUP SIGNIN FORM (shubham)*/
+#btn-login{
+    height: 27px;
+    position: absolute;
+    right: 90px;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding: 4px;
+    background-color: limegreen;
+    color: white;
+    width: 58px;
+    border: none;
+}
+#btn-signin{
+    height: 27px;
+    position: absolute;
+    right: 20px;
+    margin-top: 10px;
+    border-radius: 7px;
+    padding: 4px;
+    background-color: limegreen;
+    color: white;
+    width: 58px;
+    border: none;
+}
+
+#btn:hover{
+    cursor: pointer;
+}
+
+/* .form_container{
+    display: none;
+    margin-top: 31px;
+    align-items: center;
+    justify-content: center;
+} */
+
+#signin_form{
+    width: 583px;
+    height: 296px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px 0px #888888, 0px 0px 3px 3px #888888;
+    position: relative;
+    left: 33%;
+    bottom: 303px;
+    z-index: 1;
+    background-color: white;
+}
+
+#signin_form h2{
+    padding: 18px;
+    text-align: center;
+}
+
+hr{
+    background-color: lightgray;
+    width: 94%;
+    margin-left: 10px;
+}
+
+.signin{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputBox{
+    margin-left: 10px;
+    margin-top: 21px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    width: 94%;
+    display: flex;
+}
+
+.inputBox img{
+    width: 32px;
+    background-color: lightgray;
+}
+
+input[type="email"], [type="password"]{
+    width: 100%;
+    border: none;
+    padding-left: 20px;
+    padding-top: 2px;
+}
+
+.inputBox{
+    margin-left: 10px;
+    margin-top: 21px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    width: 94%;
+    display: flex;
+}
+
+.inputBox img{
+    width: 32px;
+    background-color: lightgray;
+}
+
+#btn2{
+    height: 27px;
+    border-radius: 7px;
+    padding: 4px;
+    background-color: limegreen;
+    color: white;
+    width: 58px;
+    border: none;
+    margin-left: 10px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+
+#close{
+    width: 58px;
+    height: 27px;
+    border-radius: 7px;
+    padding: 4px;
+    border: 2px solid lightgray;
+    background-color: white;
+    margin-top: 11px;
+    margin-left: 31.5rem;
+}
+
+#close:hover{
+    cursor: pointer;
+}
+
 .complete-body{
     /* background-color: aqua; */
     height: auto;
     width: 100%;
+    position: absolute;
+    top: 1px;
 }
 .container1{
     /* background-color: aqua; */
