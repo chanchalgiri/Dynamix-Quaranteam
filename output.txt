@@ -1,0 +1,7 @@
+
+    The name of the Student : ,
+    Collge Name : ,
+    E-mail id : ,
+    Contact no : ,
+    queries/issues/comments : 
+    

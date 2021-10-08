@@ -11,9 +11,15 @@ app.set('view engine', 'pug')
 app.set('C:\dynamix courses animation\Dynamix-Quaranteam-1\views', path.join(__dirname), 'views')
 
 app.get('/', (req,res)=>{
-  const con = "This is the best content on the interest so far so use it wisely";
-  const params = { 'title' : "PubG is the best game", "Content" : con}
+  const con = "This is an awesome e-learning website";
+  const params = { 'title' : "Dynamix", "Content" : con}
     res.status(200).render('contact.pug', params);
+})
+
+app.get('/courses', (req,res)=>{
+  const con = "This is an awesome e-learning website";
+  const params = { 'title' : "Dynamix", "Content" : con}
+  res.status(200).render('courses.html', params);
 })
 
 app.post('/', (req,res)=>{
