@@ -113,6 +113,17 @@ nav{
 .course-selection option{
     background-color: rgba(121, 113, 113, 0.377);
 }
+.course-btn{
+    /* background-color: blue; */
+    height: 40px;
+    padding: 8px 18px;
+    margin:5px;
+    font-size: 15px;
+    font-weight: 900;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
 /* subject-classification */
 .all-subject{
     /* background-color: #0288D1; */
